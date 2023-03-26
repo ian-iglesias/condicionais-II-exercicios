@@ -1,16 +1,9 @@
-//código a ser reescrito
+// Utilizando ternários
 
-if(nome === "José"){
-	console.log("Oi, Zé!");
-} else {
-	console.log("Olá, "+nome);
-}
+let nome = "José";
 
-if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
-} else {
-	console.log("Ainda não pode tirar carteira de motorista");
-}
+nome === "José" ? console.log("Oi, Zé!") : console.log("Meu nome não é José");
 
+let idade = 18;
 
-console.log("teste 3")
+idade >= 18 ? console.log("Pode tirar a carteira de motorista!") : console.log("Ainda não pode tirar a carteira de motorista...")

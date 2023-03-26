@@ -12,6 +12,8 @@ Faça isso:
         }
     }
 ```
+
+
 2. Utilizando um operador lógico para unir duas operações relacionais
 ```jsx
     if(expressao && expressao){ //&& para E
